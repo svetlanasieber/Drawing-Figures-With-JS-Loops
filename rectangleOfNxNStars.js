@@ -1,0 +1,10 @@
+function rectangleOfNxNStars(num){
+
+    for(let i = 1; i <= num; i++){
+        let char = '*'
+        console.log(char.repeat(num));
+    }
+
+}
+
+rectangleOfNxNStars(4)
